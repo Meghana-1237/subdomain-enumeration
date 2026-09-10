@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+Subdomain Enumeration
 
-# Run and deploy your AI Studio app
+## About
+This project is a prototype that demonstrates how subdomains can be identified during an authorized security assessment.
 
-This contains everything you need to run your app locally.
+## Objective
+The objective of this project is to understand the concept of subdomain enumeration and its importance in cybersecurity reconnaissance.
 
-View your app in AI Studio: https://ai.studio/apps/4fe1bf3b-8498-4da1-bee2-6c616820f1eb
+## Features
+- Simple and user-friendly interface
+- Demonstrates subdomain enumeration
+- Displays identified subdomains
+- Provides an easy way to understand enumeration results
+- Designed for educational and authorized security assessment purposes
 
-## Run Locally
+## Technologies Used
+- React
+- TypeScript
+- Vite
+- CSS
+- Node.js
 
-**Prerequisites:**  Node.js
+## Project Structure
+- `src/` – Main application source code
+- `public/` – Public assets
+- `package.json` – Project dependencies and scripts
+- `vite.config.ts` – Vite configuration
+- `index.html` – Main HTML file
 
-
-1. Install dependencies:
+## How to Run
+1. Install the required dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+
+2. Start the development server:
    `npm run dev`
+
+3. Open the local URL shown in the terminal.
+
+## Learning Outcome
+This project helped us understand:
+- The concept of subdomains
+- Subdomain enumeration in cybersecurity
+- Basic reconnaissance concepts
+- Building a cybersecurity-focused web prototype
+
+## Disclaimer
+This project is intended only for educational purposes and authorized security assessments. Do not use it against websites, domains, or systems without proper permission.
